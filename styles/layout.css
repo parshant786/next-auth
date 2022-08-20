@@ -1,0 +1,38 @@
+.layout-header {
+  padding: 30px;
+  flex: 0 1 40%;
+  font-size: 1.5rem;
+}
+.layout-footer {
+  color: aqua;
+  background-color: orange;
+  padding: 30px;
+  text-align: center;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  flex-wrap: wrap;
+}
+.header-ul {
+  display: flex;
+  list-style: none;
+  flex-basis: 50%;
+  flex-grow: 0;
+  justify-content: flex-end;
+}
+.header-li {
+  padding: 15px;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 685px) {
+  .header-ul {
+    flex-direction: column;
+  }
+  .nav-container {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0px;
+  }
+}

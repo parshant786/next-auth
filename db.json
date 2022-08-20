@@ -1,0 +1,86 @@
+{
+  "events": [
+    {
+      "id":1,
+      "title":"title1",
+      "description":"description 1",
+      "catagory":"sports",
+      "date":"1 jan"
+    }, {
+      "id":2,
+      "title":"title2",
+      "description":"description 1",
+      "catagory":"flim",
+      "date":"2 jan"
+    }, {
+      "id":3,
+      "title":"title3",
+      "description":"description 1",
+      "catagory":"sports",
+      "date":"1 jan"
+    }, {
+      "id":4,
+      "title":"title4",
+      "description":"description 1",
+      "catagory":"sports fef",
+      "date":"4 jan"
+    }, {
+      "id":5,
+      "title":"title5",
+      "description":"description 1",
+      "catagory":"sports",
+      "date":"12 jan"
+    }, {
+      "id":6,
+      "title":"title6",
+      "description":"description 1",
+      "catagory":"politics",
+      "date":"1 jan"
+    } ,{
+      "id":7,
+      "title":"title7",
+      "description":"description 1",
+      "catagory":"auto",
+      "date":"1 jan"
+    }
+  ],
+
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "follower": 20,
+    "following": 100
+  },
+  "products": [
+    {
+      "name": "product1",
+      "id": 1,
+      "price": 1000
+    },
+    {
+      "name": "product2",
+      "id": 2,
+      "price": 10033
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "catagory": "sports",
+      "title": "news article 1",
+      "description": "description 1"
+    },
+    {
+      "id": 2,
+      "catagory": "sports",
+      "title": "news article 3",
+      "description": "description 1"
+    },
+    {
+      "id": 3,
+      "catagory": "poltices",
+      "title": "news article 2",
+      "description": "description 1"
+    }
+  ]
+}
